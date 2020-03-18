@@ -1,5 +1,5 @@
 'use strict';
-
+/* intento 
 var precio = 10;
 var ivaN = iva();
 var total = add();
@@ -16,4 +16,21 @@ function add(precio, ivaN) {
 }
 
 document.write("Precio sin IVA: " + precio + ", " + "IVA: " + ivaN + "Total: " + total);
-ivaN(precio);
+ivaN(precio); */
+
+var precio 
+var iva = 0;
+var total = 0;
+
+precio = parseInt(prompt("Ingrese el valor"));
+
+function calcularValor(precio) {
+
+    iva = precio*.21;
+    total = iva+precio;
+    console.log("Precio sin IVA: " + precio + ", " + "IVA: " + iva + "Total: " + total);
+    
+    
+}
+
+calcularValor(precio);
